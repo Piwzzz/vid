@@ -9,7 +9,7 @@
         <div class="col-md-8">
             <div class="mb-4">
                 <a class="btn btn-primary" href="{{ route('video.create') }}">
-                    <i class="bi bi-plus"></i>  Tambah feeds
+                    <i class="bi bi-plus"></i>  Tambah Feeds
                 </a>
             </div>
 

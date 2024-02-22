@@ -23,7 +23,7 @@ class VideoControllers extends Controller
     {
         $request->validate([
             'vidio' => 'required|file|mimes:mp4|max:10048',
-            'caption' => 'max:100',
+            'caption' => 'max:100', // Making the 'caption' field optional
         ]);
 
         $params = $request->all();
